@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    //Strings Opertors
+    $a = "Hello";
+    $b = "World!";
+    $c = $a ." " . $b;// to create a space btw the syntax
+    echo $c;
+    echo"<br>";
+    echo"<hr>";
+    echo"<hr>";
+
+    //Arithmetic Operator
+    echo 23*45;
+    echo"<br>";
+    echo 34%74;
+    echo"<br>";
+    echo 34-74;
+    echo"<br>";
+    echo 34+74;
+    echo"<br>";
+    echo 23 + (45*56);
+    echo"<br>";
+    echo"<hr>";
+    echo"<hr>";
+
+    //Assignment operator
+
+    $a = 2;
+    $a += 4;
+    echo $a;
+    echo"<br>";
+    echo"<hr>";
+    echo"<hr>";
+
+
+    //Comparison Operators
+    $a =2;
+    $b = 3;
+
+    if($a > $b){
+        echo"This is true statement!";
+    }else{
+        echo"This is false statement!";
+    }
+    echo"<br>";
+    echo"<hr>";
+    echo"<hr>";
+
+    // Logical Operators
+    $a =2;
+    $b = 2;
+    $c = 5;
+
+    if($a == $b || $b == $c){
+        echo"This is true statement!";
+    }
+    echo"<br>";
+    
+
+
+    //Increment and Decrease Operatoors
+    $a = 4;
+    echo ++$a;
+    echo"<br>";
+    echo $a--;
+    echo"<br>";
+    $b = 5;
+    echo --$b;
+    echo"<br><br>";
+    echo "<hr> <hr>"; 
+
+    // CONDITIONS AND CONTROL STRUCTURE
+     $a = 44;
+     $b = 45;
+     $bool = true;
+     if( $a==$b && !$bool){
+        echo"This statement is true";    
+     }else if ($a==$b && $bool){
+        echo"This statement is false";
+     }    
+     else{
+        echo"both are correct";
+     }
+
+     echo"<br> <br>";
+     echo "<hr> <hr>";
+
+
+    //Switch Case
+    switch($a){
+        case 1:
+            echo"The first sentence is incorrect!. ";
+            break;
+        case 44:
+            echo"The second sentence is correct!. ";
+            break;
+        default:
+            echo" Both the statements are true";
+
+    }
+    echo"<br><br>";
+    echo "<hr> <hr>";
+
+
+    //Match Case
+    $result = match($a){
+        44 => "This statement is equal to one",
+        23=> " This statement is equal to two",
+        default => "Bothe the statemwnt are wrong",
+    };
+    echo $result;
+
+
+    ?>
+</body>
+</html>
