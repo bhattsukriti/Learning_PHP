@@ -22,6 +22,11 @@
     echo"<br>";
     echo substr($strings, 2, -2);
 
+    //simple function
+    function right(){
+        
+    }
+
 
     ?>
 </body>
