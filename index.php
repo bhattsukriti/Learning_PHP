@@ -61,6 +61,19 @@
     var_dump($x);
 
 
+    // to update the the code on github
+    // git status
+    // git add .
+    // git commit -m" Upgrated the code "
+
+
+    //foreach looop
+    $fruits = ["banana", "apple","orange","strawberry"];
+        foreach($fruits as $d){  // it is used "as" iterate means to give the to another variable.
+            echo "This is a" . $d . "<br>";
+        }
+        
+
 
     
     ?>

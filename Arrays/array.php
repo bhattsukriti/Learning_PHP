@@ -12,7 +12,7 @@
     $arr1[] = "auto";
     echo"<pre>";
     print_r( $arr1);
-    echo"</pre>";
+    echo"</pre>";// used for formating the syntax
     echo"<br>";
     echo"<hr><hr>";
 
