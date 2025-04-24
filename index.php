@@ -65,6 +65,7 @@
     // git status
     // git add .
     // git commit -m" Upgrated the code "
+    // git push
 
 
     //foreach looop
@@ -72,7 +73,7 @@
         foreach($fruits as $d){  // it is used "as" iterate means to give the to another variable.
             echo "This is a" . $d . "<br>";
         }
-        
+
 
 
     
