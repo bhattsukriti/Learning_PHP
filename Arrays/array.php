@@ -64,10 +64,24 @@
     ];
     echo"<pre>";
     echo "Tottal count of arrays:", count($arr4);
-    echo"</pre>";
+    echo"</pre>". "<br> . <hr> <hr>";
 
 
-    //Array_Splice
+    //to find that this is array or not
+    $array = ["anil", "subham", "rohit", "jam"];
+    // $array = "abc";
+
+    if (is_array($array)){
+        echo "This is an array.";
+    }else{
+        echo "This is not an array";
+    }
+     echo "<br><br>";
+    echo"<b>To Remove Array we use Unset</b>" . "<br>";
+    unset($array[2]);
+    print_r($array);
+
+    
 
     ?>
 </body>
