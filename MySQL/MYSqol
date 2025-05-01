@@ -1,0 +1,16 @@
+how to makke table from Ui and SQl.
+How to make table from ui from phpMyAdmin.
+ To create the file you have to write CREATE DATABASE "YOUR tabl NAME" with SQL.
+  
+
+  TO INSERT THE DATA IN TABLE
+  Open the file and then click n Insert then add the data on the block(this is with ui).
+  Go to SQL and then Write "INSERT INTO 'table NAME'and 'thevalue which you want to add' and the wriTe'VALUE' and add the values with answer".
+
+
+  TOO FILTER THE DATA
+  With UI you can select filter option then you can add the filter .
+  With SQl you can go to sql and write " Select * from 'table name' and then write 'WHERE' to find that but kind of value you want ot filter".
+
+  TO UPDATE THE TABLE DATA
+  to update from sql 'UPDATE `student` SET `year` = '3rd' WHERE `student`.`id` = 1;'
